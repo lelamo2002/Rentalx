@@ -13,7 +13,7 @@
           "Category"
         ],
         "sumary": "Create a category",
-        "description": "Create a new category",
+        "description": "Creates a new category",
         "requestBody": {
           "content": {
             "application/json": {
