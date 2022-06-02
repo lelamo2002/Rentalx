@@ -5,13 +5,16 @@
   "license": "MIT",
   "scripts": {
     "dev": "ts-node-dev --transpile-only --ignore-watch node_modules --respawn src/server.ts",
-    "ddev": "ts-node-dev --poll --inspect --transpile-only --ignore-watch node_modules --respawn src/server.ts"
+    "ddev": "ts-node-dev --poll --inspect --transpile-only --ignore-watch node_modules --respawn ./src/server.ts"
   },
   "dependencies": {
     "csv-parse": "^5.0.4",
     "express": "^4.17.1",
     "multer": "^1.4.4",
+    "pg": "^8.7.3",
+    "reflect-metadata": "^0.1.13",
     "swagger-ui-express": "^4.4.0",
+    "typeorm": "0.2.45",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
